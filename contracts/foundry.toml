@@ -1,0 +1,13 @@
+[profile.default]
+src = "src"
+out = "out"
+test = "test"
+script = "script"
+cache_path = "cache"
+broadcast = "broadcast"
+libs = ["lib"]
+
+remappings = [
+  "@interop-lib/=lib/interop-lib/src/",
+  "@openzeppelin/=lib/openzeppelin-contracts/"
+]
